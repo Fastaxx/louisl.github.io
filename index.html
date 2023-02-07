@@ -5,15 +5,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Portfolio</title>
+    <title>Louis Libat</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://img.icons8.com/ios/50/000000/resume.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
-
+<style> 
+    .column {
+      flex: 33.33%;
+      height: 200px;
+      padding: 10px;
+      margin: 5px;
+      text-align: left;
+    }
+    .container {
+       display: flex;
+    }   
+</style>
 <body>
     <div id="mobile-menu-open" class="shadow-large">
         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -25,19 +36,19 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#about">A propos</a>
             </li>
             <li>
                 <a href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#education">Formation</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Projets</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Compétences</a>
             </li>
             <li>
                 <a href="#contact">Contact</a>
@@ -48,9 +59,9 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Louis Libat</h1>
+            <h2>Ingénieur xxx</h2>
+            <a href="#" class="btn-rounded-white">Télécharger mon CV</a>
         </div>
         <!-- End #lead-content -->
 
@@ -65,11 +76,59 @@
     </div>
     <!-- End #lead -->
 
-    <div id="about">
+<div id="about">
+    <h2 class="heading" >Ce que je fais : </h2>
+        <div class="container">
+       <div class="column">
+         <h2 style="text-align: center;"> Ingénierie énergétique </h2>
+         <ul>
+            <li>
+                Modélisation, simulation des installations énergétiques
+            </li>
+            <li>
+                Audit énergétique, systèmes énergétiques du bâtiment, CVC
+            </li>
+            <li>
+                Optimisation des machines et moteurs
+            </li>
+        </ul>
+       </div>
+       <div class="column">
+         <h2 style="text-align: center;"> Ingénierie mécanique </h2>
+         <ul>
+            <li>
+                Mécanique numérique (CFD), transferts thermiques, multiphasique
+            </li>
+            <li>
+                Couplages multiphysiques, thermohydraulique, turbulence
+            </li>
+            <li>
+                Méthodes de résolutions numériques (FEM, VOF, FDM), codes prototypes
+            </li>
+        </ul>
+       </div>
+       <div class="column">
+         <h2 style="text-align: center;"> Informatique </h2>
+         <ul>
+            <li>
+                Informatique et calcul scientifique
+            </li>
+            <li>
+                Data science, analyse de données
+            </li>
+           
+        </ul>
+       </div>
+    </div>
+    <!-- End .optional-section-block -->
+
+</div>
+<!-- End .optional-section -->
+    <!-- <div id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">A propos</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
@@ -80,73 +139,121 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading">Expérience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+<!--             <div data-date="2023 - 4 mois">
+                <h3>Ingénieur modélisation</h3>
+                <h4>Laboratoire central Prefecture de police - Pompiers de Paris</h4>
+                <ul>
+                <li>
+                    Ingénierie mécanique : Projets mécaniques, électriques, electroniques, batteries, e-bikes, solaire
+                </li>
+                <li>
+                    Déploiement d'infrastructures cyclables : Modélisation des flux de circulations, maitrise d'ouvrage
+                </li>
+                <li>
+                    Accompagnement de projets vélos innovants : Aide technique, plan de financement
+                </li>
+            </ul>
+            </div> -->
+
+            <div data-date="2022 – 15 mois">
+                <h3>Ingénieur projet</h3>
+                <h4>Projets industriels - CNAM</h4>
+                <ul>
+                <li>
+                    <b>Bureau d'étude - (6 mois)</b> :  Rénovation de la centrale hydroélectrique de Saint-Gaultier ; Système de production d'énergie, chauffage, isolation, dimensionnement ventilation, ECS, aéraulique
+                </li>
+                <li>
+                    <b>Audit énergétique - (5 mois)</b> : Complexe hôtelier lyonnais ; Simulation thermique dynamique, analyse des consommations, préconisation des travaux, financement
+                </li>
+                <li>
+                    <b>Projet de fin d'étude - (6 mois) </b> : Modélisation et simulation numérique d'un générateur d'énergie aéroporté (Kite-based) ; Modélisation multi-physique (aérodynamique, mécanique du vol, production électrique), simulation numérique, construction expérimentale
+                </li>
+            </ul>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+            <div data-date="2021 - 9 mois">
+                <h3>Chargé de projet : Ecosystème vélo</h3>
+                <h4>FUB - Fontenay-sous-bois</h4>
+                <ul>
+                <li>
+                    Ingénierie mécanique : Projets mécaniques, électriques, electroniques, batteries, e-bikes, solaire
+                </li>
+                <li>
+                    Déploiement d'infrastructures cyclables : Modélisation des flux de circulations, maitrise d'ouvrage
+                </li>
+                <li>
+                    Accompagnement de projets vélos innovants : Aide technique, plan de financement
+                </li>
+            </ul>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
-            </div>
         </div>
     </div>
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">Formation</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Master Mécanique : Modélisation et Simulation</h3>
+            <span class="education-date">Sept 2022 - Sept 2024</span>
+            <h4>Université Paris-Est</h4>
+            <p>En cours</p>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Mécanique des fluides / solides : Simulation numérique, modélisation
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Dynamique des fluides approfondies, propagation d'ondes (élastiques, mécaniques, acoustiques), transferts thermiques, échangeurs
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Couplage multiphysiques, turbulence, multiphasique, thermohydraulique
+                </li>
+                <li>
+                    Méthodes de résolutions numériques (FEM, DFM, VOF), calcul parrallèle, HPC, codes prototypes
                 </li>
             </ul>
         </div>
-        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Licence Sciences Technologies - Energétique</h3>
+            <span class="education-date">Sept 2021 - Sept 2022</span>
+            <h4>CNAM Paris</h4>
+            <p>Mention Très bien</p>
+            <ul>
+                <li>
+                    Systèmes énergétiques : Modélisation, simulation, régulation
+                </li>
+                <li>
+                    Simulation thermique dynamique, CFD
+                </li>
+                <li>
+                    CVC, aéraulique, échangeurs
+                </li>
+            </ul>
+        </div>
+
+        <div class="education-block">
+            <h3>CPGE MPSI - PSI</h3>
+            <span class="education-date">Sept 2019 - Sept 2021</span>
+            <h4>Lycée Saint-Louis, Paris</h4>
+            <p>Mention Très bien</p>
+            <ul>
+                <li>
+                   Mathématiques, physique, chimie, informatique, sciences industrielles de l'ingénieur
+                </li>
+            </ul>
+        </div>
     </div>
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Projets</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -186,40 +293,32 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">Compétences</h2>
         <ul>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>Fortran</li>
+            <li>Matlab</li>
+            <li>ANSYS</li>
+            <li>Comsol Multiphysics</li>
+            <li>Comfie Pléiades</li>
+            <li>Open-Modelica</li>
+            <li>Paraview</li>
+            <li>Simflow</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>LaTex</li>
+            <li>Selenium</li>
+            <li>Streamlit</li>
+            <li>Matplotlib</li>
+            <li>Pandas</li>
+            <li>Seaborn</li>
+            <li>Office</li>
         </ul>
     </div>
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
+        <h2>Contact</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
@@ -237,7 +336,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+                        Copyright &copy; <span id="current-year">2023</span> Louis Libat
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -248,22 +347,10 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/Fastaxx" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/louislibat/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
